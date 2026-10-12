@@ -4,6 +4,7 @@ Thư viện và công cụ chuyển đổi bảng mã Tiếng Việt hiệu năn
 
 Dự án kế thừa và tương thích 100% thuật toán cùng hệ thống 19 bảng mã từ thư viện `vnconv` (UniKey Project - Phạm Kim Long).
 
+AJS - lisp.vn code lại bằng Google Gemini HN T10/2026
 ---
 
 ## Cấu trúc Solution
