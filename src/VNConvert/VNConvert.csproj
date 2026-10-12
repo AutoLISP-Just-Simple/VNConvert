@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsAotCompatible>true</IsAotCompatible>
+    <IsTrimmable>true</IsTrimmable>
+    <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
+    <!-- When published as NativeLib=Shared, builds a native AOT shared library (C ABI) -->
+    <PublishAot Condition="'$(NativeLib)' == 'Shared'">true</PublishAot>
+    <AssemblyName>VNConvert</AssemblyName>
+    <RootNamespace>VNConvert</RootNamespace>
+    <Version>2.0.0</Version>
+    <Authors>Pham Kim Long, Antigravity</Authors>
+    <Description>Modern, high-performance Vietnamese character encoding converter for .NET 8.0, Native AOT compatible.</Description>
+  </PropertyGroup>
+
+</Project>
